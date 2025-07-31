@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="theme-color" content="#e91e63"/>
+  <title>Rakhi Surprise</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h2>🎉 Happy Raksha Bandhan Brother! 💖</h2>
+  <p>📌 Scan the QR to get your surprise 🎁</p>
+  
+  <!-- QR Code Image -->
+  <img src="qr.png" alt="Scan this QR code for Rakhi surprise" aria-label="QR code for Rakhi gift" />
+
+  <p class="hint">(Click the button to play your special song 🎶)</p>
+
+  <!-- Play Music Button -->
+  <button class="play-button" onclick="playSurprise()">Play Surprise Song 🎵</button>
+
+  <!-- Background Music -->
+  <audio id="bgAudio" loop>
+    <source src="https://files.catbox.moe/62fsfx.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- Confetti Canvas -->
+  <canvas id="confetti"></canvas>
+
+  <!-- JavaScript File -->
+  <script src="script.js"></script>
+
+</body>
+</html>
